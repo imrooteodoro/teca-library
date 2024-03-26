@@ -1,0 +1,225 @@
+$bg-header: #161617;
+$border-btn:#10b26f;
+$border-header: #13bd3c;
+$bg-content:#0a0a0a;
+$dark-green:#012005;
+
+.content{
+    position: relative;
+    max-width: 1000px;
+    margin-left:0;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    .button{
+        background-color: transparent;
+        padding: 7px 6px;
+        border-radius: 4px 5px;
+        text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
+        margin-left:10px;
+        align-items: center;
+        font-weight: bolder;
+        color:blue;
+        border: solid 1px blue;
+        padding-bottom: 1em;
+        
+    }
+    .button:hover{
+        transition: 500ms;
+        cursor: pointer;
+        background: orangered;
+        color:wheat;
+        border:solid 2px rgb(228, 83, 17);
+    }
+    .button2{
+        font-weight: bolder;
+        cursor: pointer;
+        background-color:wheat;
+        font-size: 30px;
+        font-weight:bolder;
+        width: 40px;
+        height: 45px;
+        border-radius: 4px 5px;
+        text-transform: uppercase;
+        margin-left:10px;
+        color:red;
+        padding-bottom: 1em;
+        border: blue;
+    }
+    .button2:hover{
+        transition: 300ms;
+        cursor: pointer;
+        border: solid 2px wheat;
+        color:wheat;
+        background-color: red;
+        box-shadow: 3px 3px  6px rgb(90, 3, 3);
+        
+    }
+    hr{
+        margin-top: 1em;
+        border: solid 1px #ffb27a;
+    }
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+.sidebarnet{
+    top: 0;
+    position: fixed;
+    right: -700px;
+    width: 700px;
+    height: 100%;
+    background-color:$bg-header;
+    box-shadow: 0 0 10px rgba(253, 251, 251, 0.4);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    .button2{
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 4px 5px;
+        text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
+        margin-left:10px;
+        align-items: center;
+        color:red;
+        padding-bottom: 1em;
+        border: solid 1px red;
+        margin-top: 10px;
+            
+    }
+    .button2:hover{
+        transition: 300ms;
+        cursor: pointer;
+        border: solid 2px wheat;
+        color:wheat;
+        background-color: red;
+    }
+    
+}
+.sidebarnet.active {
+    right: 0;
+}
+
+
+.sidebar {
+    position: fixed;
+    margin-top: 4em;
+    top: 10;
+    transition: 300ms;
+    right:-700px px;
+    width: 700px;
+    height: 100%;
+    background-color:rgba(202, 166, 167, 0.7);
+    box-shadow: 0 0 10px rgba(253, 251, 251, 0.4);
+    transition: right 0.3s ease;
+   overflow: scroll;
+   
+}
+
+
+.calculator.active{
+    right: 0;
+}
+
+
+.subnetcaltool.active{
+    right: 0;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.close-btn {
+    margin: 10px;
+}
+
+.levels {
+    width: 100%;
+    padding:20px;
+    margin:auto 0;
+    align-items: center;
+}
+
+h2 {
+    color: $border-btn;
+    text-align: center;
+    font-size: 18px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: $border-header;
+}
+
+ul {
+    padding-left: 20px;
+}
+label{
+    text-align: justify;
+    color: wheat;
+}
+.form{
+    margin-top: 3em;
+    display:flex;
+    flex-direction: column;
+    input{
+        padding:10px;
+        border-radius:3px 4px;
+        border: solid 1px orangered;
+    }
+    button{
+        padding:10px;
+        margin-top: 0.5em;
+        background-color: blue;
+        border: none;
+        border-radius:3px 4px;
+        color: white;
+    }
+    label{
+        color: black;
+        margin-bottom:0.3em;
+
+    }
+}
+
+@media (max-width:468px){
+    .content{
+        width: 100%;
+        .button{
+            margin-left: 5em;
+        
+        }
+    
+    }
+    .sidebar{
+        width: 100%;
+        font-size: 12px;t
+        .button2{
+            margin-left: 0;
+            color:red;
+            border: solid 1px white;
+        }
+    }
+    .sidebarnet{
+        .button{
+            color: rgb(24, 23, 23);
+            background-color: #0a0a0a;
+        }
+    }
+    .button{
+        margin-bottom:1em;
+        color: blue;
+    }
+    
+   
+}

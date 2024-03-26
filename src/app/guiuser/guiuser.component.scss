@@ -1,0 +1,248 @@
+#subnav{
+    width:100%;
+    height:400px;
+    background-image: url('../../assets/librarybg.jpg');
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right,rgb(223, 5, 5, 0.7), rgba(12, 10, 9, 0.6), rgb(223, 5, 5, 0.6));
+}
+.container{
+    width: 80%;
+    display: flex;
+    height: 400px;
+    margin: auto;
+}
+.search-bar{
+    color: wheat;
+    margin-top: 4em;
+    width: 70%;
+    input{
+        width:94%;
+        border: solid 1px orangered;
+        border-radius: 4px 5px;
+        padding: 10px;
+        margin-top:1em;
+        margin-bottom:1em;
+    }
+    a{
+        color: rgb(251, 252, 253);
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bolder;
+        margin-left: 79%;
+    }
+    hr{
+        margin-top: 0.8em;
+        border: solid 1px orangered;
+        margin-bottom:0.5em;
+    }
+    button{
+        padding: 8px;
+        background-color: orangered;
+        padding-right: 1em;
+        margin-left: 0.3em;
+        border-radius: 3px 4px;
+        border: solid 1px red;
+        cursor: pointer;
+    }
+    button:hover{
+        padding: 10px;
+        border:none;
+        background-color: rgb(5, 29, 138);
+
+    }
+    a:hover{
+        color: red;
+
+    }
+}
+
+.profilepic{
+    margin-top: 2em;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    a{
+        color: wheat;
+        text-decoration: none;
+        margin-top: 1.5em;
+        margin-left:0.5em;
+    }
+}
+span{
+    color: wheat;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    background-color:#ffb27a;
+}
+
+.user-area{
+    display: flex;
+    margin-left: 2em;
+    flex-direction: column;
+    width: 200px;
+    height:200px;
+    border-radius: 10px 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    background-color: rgba($color: #e99768, $alpha: 0.7);
+    margin-top: 0.5em;
+    span{
+        color: black;
+    }
+    .text{
+        display: flex;
+        margin: auto;
+        margin-left: -1.2em;
+        color: wheat;
+        font-weight: bolder;
+        margin-top: 6.5em;
+        width:150px;
+        flex-direction: column;
+        text-shadow: 2px 3px 2px rgb(12, 12, 11);
+    }
+    button{
+        margin-top: 2px;
+        background-color:orangered;
+        border: none;
+        border-radius: 4px 2px;
+        text-transform: uppercase;
+        color: wheat;
+        font-weight: bolder;
+        
+    }
+    button:hover{
+        background-color: blue;
+        padding:1.5px;
+        transition: 300ms;
+    }
+}
+
+@media  (max-width:768px) {
+    .nav{
+        display: flex;
+        width: 100%;
+        height: 400px;
+        background-image: linear-gradient(to right,rgb(223, 5, 5, 0.7), rgba(12, 10, 9, 0.6), rgb(223, 5, 5, 0.6));
+        p{
+            font-size:10px;
+        }
+        span{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 13px;
+        }
+    }
+    .search-bar{
+        color: wheat;
+        margin-top: 4em;
+        width: 70%;
+        input{
+            width:85%;
+            border: solid 1px orangered;
+            border-radius: 4px 5px;
+            padding: 7px;
+            font-size: 10px;
+            margin-top:1em;
+            margin-bottom:1em;
+        }
+        a{
+            color: rgb(251, 252, 253);
+            text-decoration: none;
+            cursor: pointer;
+            font-size:12px;
+            font-weight: bolder;
+            margin-left: 50%;
+        }
+    }
+    .user-area{
+        display: flex;
+        margin-left: 1em;
+        flex-direction: column;
+        border-radius: 10px 20px;
+        color: black;
+        width:150px;
+        height:170px;
+        text-align: center;
+        align-items: center;
+        background-color: rgba($color: #a3460f, $alpha: 0.7);
+        margin-top: 0.5em;
+        span{
+            color: black;
+        }
+        
+    }
+    .profilepic{
+        width: 100px;
+        height:100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        button{
+            width:80%;
+            
+        }
+    }
+}
+
+@media  (max-width:468px) {
+    
+    .search-bar{
+        h3{
+            font-size:10px;
+        }
+        input{
+            width:82%;
+            font-size:10px;
+            
+        }
+        button{
+            padding:3px;
+        }
+        button:hover{
+            padding:3px;
+            background-color: blue;
+            transition: 400ms;
+        }
+        a{
+            font-size: 9px;
+        }
+        span{
+            font-size: 7px;
+        }
+    }
+    .user-area{
+        margin-top:4em;
+        width:100px;
+        height: 100px;
+        .profilepic{
+            margin-top:10px;
+            width:50px;
+            height:50px;
+            button{
+                margin-top:-45px;
+                width:60px;
+                margin-left:20px;
+                font-size: 7px;
+            }
+        }
+    }
+    #subnav{
+        height:300px;
+    }
+    .nav{
+        height: 300px;
+    }
+}

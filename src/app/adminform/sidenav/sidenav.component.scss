@@ -1,0 +1,32 @@
+*{
+    color:wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button{
+        margin-top: 0.5em;
+        width:80%;
+        border-radius: 4px 5px;
+        margin-bottom: 2em;
+        padding: 20px;
+        background-color: blue;
+        font-size: 20px;
+        text-transform: uppercase;
+
+    }
+    button:hover{
+        background-color: transparent;
+        border: solid 2px blue;
+        color: blue;
+        transition: 400ms;
+    }
+}
+@media (max-width:486px){
+    *{
+        button{
+            padding:10px;
+            font-size: 10px;
+        }
+        
+    }
+}
