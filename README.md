@@ -41,13 +41,23 @@ Protótipo do Front-end da Teca Library, um projeto da disciplina de Engenharia 
 
 ## LAYOUTS 
 
-<div style="display:flex; flex-direction:column;">
-<span> Login Desktop: </span>
+<div style="display:flex; flex-direction:column; text-align:center;">
+<div class="img1" style="flex-direction:column;">
+<h1>Login Desktop:</h1>
 <img src="layouts/login_desk.png"/>
-<span> Login Mobile: </span>
+</div>
+
+<div class="img2" style="flex-direction:column; padding:3em;">
+<h1>Login Mobile:</h1>
 <img src="layouts/login_mobile.png"/>
-<span> User area Desktop: </span>
+</div>
+
+<div class="img3">
+<h1>User area desktop:</h1>
 <img src="layouts/user_desk.png"/>
-<span> User area mobile: </span>
+</div>
+<div class="img4">
+<h1>User area mobile:</h1>
 <img src="layouts/user_mobile.png"/>
+</div>
 </div>
