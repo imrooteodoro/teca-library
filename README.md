@@ -1,27 +1,51 @@
-# TecaLibrary
+# TECA LIBRARY
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+Protótipo do Front-end da Teca Library, um projeto da disciplina de Engenharia de Software, referente ao terceiro (3º) período do curso de ADS do Instituto Federal do Tocantins.
 
-## Development server
+## INDICE
+- <a href="#requisitos">REQUISITOS</a>
+- <a href="#tecnologias">TECNOLOGIAS</a>
+- <a href="#layouts">LAYOUTS</a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## REQUISITOS
+#### FUNCIONAIS:
+- [x] Cadastro de livros
+- [x] Empréstimo de livros
+- [x] Login e senha 
+- [x] Cashback
+- [x] Sistema de avaliação de livros
+- [x] Sistema de estatística de leitura
+- [x] Limite de aluguel de livros
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### NÃO FUNCIONAIS:
 
-## Running unit tests
+- [x] Cores: Utilizar as cores laranja e branco no design do sistema.
+- [x] Layout arrastável: Adicionar funcionalidade para indicar que o layout pode ser arrastado horizontalmente (Carousel).
+- [x] Responsividade
+- [x] Acessibilidade
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## TECNOLOGIAS
 
-## Running end-to-end tests
+<div >
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"  width="100" heigth="100"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="80" heigth="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" width="100" heigth="100"/>
+          
+</div>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## LAYOUTS 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div style="display:flex; flex-direction:column;">
+<span> Login Desktop: </span>
+<img src="layouts/login_desk.png"/>
+<span> Login Mobile: </span>
+<img src="layouts/login_mobile.png"/>
+<span> User area Desktop: </span>
+<img src="layouts/user_desk.png"/>
+<span> User area mobile: </span>
+<img src="layouts/user_mobile.png"/>
+</div>
