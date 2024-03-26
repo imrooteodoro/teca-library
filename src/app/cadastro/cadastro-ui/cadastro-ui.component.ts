@@ -7,7 +7,12 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
     //templateUrl: './cadastro-ui.component.html',
     //template: `<app-login-ui/>`,
     styleUrl: './cadastro-ui.component.scss',
+
     styles:`
+
+    h2{
+        font-size: 15px;
+    }
     #cadastro{
     width: 100%;
     height: 100vh;
@@ -18,6 +23,7 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
 .bannerbd{
     width: 100%;
     height: 100vh;
+    font-size:15px;
     background-image: linear-gradient(to top, rgba(196, 55, 4, 0.7), rgb(243, 84, 10));
     p{
         color: wheat;
@@ -29,34 +35,34 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
 
 .formarea{
     width: 70%;
-    height: 100%;
+    height: 100vh;
     
 }
 
 .cadform{
+
+    width:80%;
+    height: 100vh;
     margin: auto;
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
 
-    width:80%;
+    width:50%;
     input{
-        padding: 16px;
+        padding: 6px;
         border-radius: 4px 6px;
         border: solid 1px orangered;
         margin-left:5em;
-        margin-bottom: 1em;
         
     }
     label{
-        margin-left: 1em;
-        margin-bottom: 0.5em;
+        
     }
     button{
         
-        width: 91%;
+        width: 100%;
         margin-left:5em;
-        padding: 15px;
+        padding: 8px;
         color: wheat;
         background-color: orangered;
         text-transform: uppercase;
@@ -70,17 +76,16 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
     }
 }
 .name{
-    margin-top: 1em;
-    width: 100%;
+    margin-top: 2em;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin-bottom: 0.5em;
     input{
         width: 100%;
-        margin-bottom:1em;
+        margin-bottom:0.3em;
     }
     label{
-        margin-bottom: 0.4em;
         margin-left:1em;
         
         
@@ -122,6 +127,7 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height:auto;
     margin: auto;
     h3{
         margin-top: 7em;
@@ -139,51 +145,7 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
     visibility: hidden;
 }
 
-@media (max-width:1400px){
-    .cadform{
-        flex-direction: column;
-        input{
-            width: auto;
-            height:3px;
-        }
-        #nome{
-            width: 400px;
-        }
-    }
-    .tel{
-        max-width: 250px;
-        margin-left: 1em;
-        height:3px;
-    }
-    .address{
-        flex-direction: column;
-        input{
-            margin-left: 5em;
-            max-width:250px;
-            height: 3px;
-            margin-bottom:0;
-        }
-        label{
-            margin-bottom: 0.2em;
-            margin-left: 1em;
-        }
-    }
-    .text-banner{
-        font-size: 12px;
-    }
-    button{
-        padding: 9px;
 
-    }
-    .cadform{
-        input{
-            margin-bottom: 0.3em;
-        }
-        label{
-            margin-bottom: 0;
-        }
-    }
-}
 
 @media (max-width:468px){
     #cadastro{
@@ -234,7 +196,7 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
 `,
     template:`
     <section id="cadastro">
-    <div class="banner-cad">
+    <div class="banner-cad" style="heigth:auto;">
         <div class="bannerbd">
             <div class="text-banner">
                 <h3>Teca Library</h3>
@@ -268,7 +230,6 @@ import { LoginUiComponent } from "../../components/login-ui/login-ui.component";
                     <input type="text" id="bairro" placeholder="Bairro" class="bairro">
                     <label for="tel">Telefone:</label>
                     <input type="text" placeholder="Telefone: ex:(63) 9999-99999" id="tel">
-                
                 
                 <label for="email">Email:</label>
                 <input type="email" placeholder="Digite seu email">

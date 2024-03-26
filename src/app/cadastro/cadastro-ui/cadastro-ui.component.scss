@@ -1,6 +1,17 @@
 .banner-cad{
     width: 30%;
-    height:100vh;
+    display: flex;
+    height:auto;
     background-image:url('../../../assets/8bit-lib.jpeg');
     background-size: cover;
+    background-repeat: repeat;
+    
+
+
 }
+
+.formulario{
+    display: flex;
+    height: auto;
+}
+
