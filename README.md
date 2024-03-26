@@ -2,6 +2,8 @@
 
 Protótipo do Front-end da Teca Library, um projeto da disciplina de Engenharia de Software, referente ao terceiro (3º) período do curso de ADS do Instituto Federal do Tocantins.
 
+### Alunos: Adelson Teodoro, Arthur Duarte,Keyton Bessa, Sávio Vitor e Victor Ferraz.
+
 ## INDICE
 - <a href="#requisitos">REQUISITOS</a>
 - <a href="#tecnologias">TECNOLOGIAS</a>
